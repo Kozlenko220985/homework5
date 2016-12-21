@@ -25,13 +25,15 @@
     	<div class="line">
     	  <span>ou</span>
     	  <form action="#" method="POST">
-    	    <input type="text" name="first_name" placeholder="First name">
-    	    <input type="text" name="second_name" placeholder="Second name">
-    	    <input type="email" name="mail" placeholder="Email Address">
-    	    <input type="password" name="pass" placeholder="Choose Password"> 
-    	    <input type="password" name="pass" placeholder="Password Confirm">
-    	    <input type="checkbox" name="checkbox" id="subscribe">
-    	    <label for="subscribe">Send me Youbike updates and tips</label>
+    	    <input type="text" name="first_name" placeholder="First name" required>
+    	    <input type="text" name="second_name" placeholder="Second name" required>
+    	    <input type="email" name="mail" placeholder="Email Address" required>
+    	    <input type="password" name="pass" placeholder="Choose Password" required> 
+    	    <input type="password" name="pass" placeholder="Password Confirm" required>
+    	    <div class="checkbox">
+    	      <input type="checkbox" name="checkbox" id="subscribe">
+    	      <label for="subscribe">Send me Youbike updates and tips</label>
+    		</div>
     	    <input type="submit" name="add" value="Create my Account">
     	  </form>
     	</div>

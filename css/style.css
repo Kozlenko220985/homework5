@@ -134,6 +134,12 @@ form{
 
 input[type="checkbox"]{
 	margin-bottom: 15px;
+	width: 11px;
+	height: 11px;
+}
+
+.checkbox{
+	height: 20px;
 }
 
 
