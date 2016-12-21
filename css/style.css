@@ -1,0 +1,164 @@
+ body{
+ 	font-family: Tahoma, Arial, sans-serif;
+ 	color: #ccc;
+ 	font-size: 14px;
+
+ }
+
+ .general{
+	width: 1216px;
+	height: 1028px;
+	margin: 0 auto;
+	background-image: url(../img/hw5_background.jpg);
+ }
+
+/*menu*/
+
+.menu:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+ .menu li{
+ 	float: left;
+ }
+
+.menu li:first-child{
+	margin-left: 510px;
+}
+
+.menu{
+	background-color: #075190;
+	height: 36px;
+}
+
+.menu li>a{
+	display: block;
+	padding: 9px;
+	text-decoration: none;
+	color: #60b5ed;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.menu li:nth-child(6){
+	border-left: 1px solid #56a2dc;
+	padding-left: 50px;
+	background-image: url(../img/hw5_flag.png);
+	background-repeat: no-repeat;
+	background-position: 18px 8px;
+}
+
+.menu li:nth-child(6) a{
+	color: white;
+	padding-left: 0;
+}
+
+.menu li:nth-child(6):hover{
+	background-color: #4eabda;
+}
+
+
+.menu li:nth-child(7) span{
+	text-decoration: underline;
+}
+
+.menu li>a:hover{
+	background-color: #4eabda;
+	color: #ffffff;
+}
+
+/*content*/
+
+.first{
+	width: 560px;
+	height: 60px;
+	margin: 180px auto 2px 354px;
+	background-color: rgba(0,0,0, 0.5);
+}
+
+.second{
+	width: 560px;
+	height: 548px;
+	margin: 0 auto 0 354px;
+	background-color: rgba(0,0,0, 0.5);
+}
+
+h3{
+	color: #ffffff;
+	font-size: 24px;
+	text-align: center;
+	line-height: 60px;
+}
+
+.second a{
+	display: block;
+	width: 276px;
+	padding-top: 35px;
+	padding-left: 144px;
+}
+
+.line{
+	width: 276px;
+	margin-left: 144px;
+	margin-top: 30px;
+	background-image: url(../img/hw5_line.png);
+	background-repeat: no-repeat;
+	background-position: 0 6px;
+}
+
+.line span{
+	text-align: center;
+	text-transform: uppercase;
+	color: #999999;
+	padding-left: 131px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+	width: 258px;
+	height: 33px;
+	margin-bottom: 15px;
+	padding-left: 18px;
+	border: none;
+	border-bottom: 1px solid #474747;
+	background-color: #000;
+	color: #ccc;
+}
+
+form{
+	margin-top: 28px;
+}
+
+input[type="checkbox"]{
+	margin-bottom: 15px;
+}
+
+
+input:focus{
+	border: none;
+	background-color: #1b5288;
+	box-shadow: 0px 4px 27px 4px #1b5288;
+}
+
+
+input[type="submit"]{
+	border: none;
+	width: 151px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: #4ca9d9;
+	margin-left: 60px;
+	margin-top: 24px;
+	color: #ccc;
+}
+
+.footer{
+	margin: 20px auto 20px auto;
+	width: 395px;
+	text-align: center;
+	color: #ccc;
+	font-size: 11px;
+}
