@@ -10,6 +10,8 @@
 	height: 1028px;
 	margin: 0 auto;
 	background-image: url(../img/hw5_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
  }
 
 /*menu*/
@@ -74,14 +76,7 @@
 .first{
 	width: 560px;
 	height: 60px;
-	margin: 180px auto 2px 354px;
-	background-color: rgba(0,0,0, 0.5);
-}
-
-.second{
-	width: 560px;
-	height: 548px;
-	margin: 0 auto 0 354px;
+	margin: 180px auto 2px auto;
 	background-color: rgba(0,0,0, 0.5);
 }
 
@@ -90,13 +85,67 @@ h3{
 	font-size: 24px;
 	text-align: center;
 	line-height: 60px;
+
+}
+.second{
+	width: 560px;
+	height: 548px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0, 0.5);
 }
 
+
+
 .second a{
+	text-decoration: none;
+	color: #fcfeff;
+}
+
+.button{
+	position: relative;
+	height: 60px;
+}
+
+.button:after{
+	content: "";
 	display: block;
+	clear: both;
+}
+
+.logo_f{
+	position: absolute;
+	background-color: #385191;
 	width: 276px;
-	padding-top: 35px;
-	padding-left: 144px;
+	height: 33px;
+	top:30px;
+	left: 144px;
+
+}
+
+.char{
+	display: block;
+	float: left;
+	width: 38px;
+	height: 33px;
+	border-right: 1px solid #213c71;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+    line-height: 33px;
+}
+
+.facebook{
+	width: 236px;
+	border-right: none; 
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+    line-height: 33px;
+}
+
+.facebook>span{
+	font-weight: bold;
+	font-size: 16px;
 }
 
 .line{
